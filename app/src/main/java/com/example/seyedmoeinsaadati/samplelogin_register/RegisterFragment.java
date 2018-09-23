@@ -9,17 +9,24 @@ import android.view.ViewGroup;
 
 public class RegisterFragment extends Fragment {
 
-
     public RegisterFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        return inflater.inflate(R.layout.fragment_register, container, false);
+        View rootview = inflater.inflate(R.layout.fragment_register, container, false);
+
+        rootview.findViewById(R.id.btn_go_to_login).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getFragmentManager().beginTransaction().replace(R.id.container, new LoginFragment()).commit();
+            }
+        });
+
+        return rootview;
     }
 
 }
