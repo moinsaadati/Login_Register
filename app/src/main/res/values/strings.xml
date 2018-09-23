@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SampleLogin_Register</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_address">Email Address</string>
+    <string name="login_now">Login Now</string>
+    <string name="don_t_remember_your_password">Don\'t Remember your Password?</string>
+    <string name="login">Login</string>
+    <string name="don_t_you_have_an_account_sign_up">Don\'t you have an account ? Sign Up</string>
+    <string name="or">or</string>
+    <string name="or_login_with">or Login with</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="password">Password</string>
+</resources>
