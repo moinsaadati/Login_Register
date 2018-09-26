@@ -5,4 +5,5 @@
     <dimen name="view_from_background">16dp</dimen>
     <dimen name="text_size">16sp</dimen>
     <dimen name="mini_margin">8dp</dimen>
+    <dimen name="login_image_size">50dp</dimen>
 </resources>
