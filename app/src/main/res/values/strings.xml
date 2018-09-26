@@ -19,4 +19,5 @@
     <string name="do_you_have_an_account_login">Do you have an account ? Login</string>
     <string name="error_msg_et_email">Email isn\'t invalid.</string>
     <string name="error_msg_et_password">Password Field is Empty.</string>
+    <string name="error_msg_et_username">Username is Empty.</string>
 </resources>

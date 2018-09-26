@@ -1,20 +1,14 @@
 package com.example.seyedmoeinsaadati.samplelogin_register.Views;
 
-public interface LoginView {
+public interface LoginView extends FormView {
 
-    public void SetEmailError();
+    void NavigateToSignUp();
 
-    public void SetPasswordError();
+    void ForgetPassword();
 
-    public void NavigateToHome();
+    void LoginWithGoogle();
 
-    public void NavigateToSignUp();
-
-    public void ForgetPassword();
-
-    public void LoginWithGoogle();
-
-    public void LoginWithFacebook();
+    void LoginWithFacebook();
 
 
 }

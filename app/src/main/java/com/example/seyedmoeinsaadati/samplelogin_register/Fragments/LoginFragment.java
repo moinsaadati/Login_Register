@@ -104,8 +104,8 @@ public class LoginFragment extends Fragment implements LoginView {
 
     @Override
     public void NavigateToHome() {
-        Intent naviagateToHome = new Intent(getContext(), Home.class);
-        startActivity(naviagateToHome);
+        Intent navigaateToHome = new Intent(getContext(), Home.class);
+        startActivity(navigaateToHome);
         getActivity().finish();
     }
 
