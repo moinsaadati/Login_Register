@@ -17,4 +17,6 @@
     <string name="select_an_username">Select an username</string>
     <string name="sign_up">Sign Up</string>
     <string name="do_you_have_an_account_login">Do you have an account ? Login</string>
+    <string name="error_msg_et_email">Email isn\'t invalid.</string>
+    <string name="error_msg_et_password">Password Field is Empty.</string>
 </resources>
