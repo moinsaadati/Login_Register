@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_registration"
     android:orientation="vertical"
-    tools:context=".LoginFragment">
+    tools:context=".Fragments.LoginFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -111,20 +111,24 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:id="@+id/imgbtn_sign_with_google"
+                    android:layout_width="@dimen/login_image_size"
+                    android:layout_height="@dimen/login_image_size"
                     android:background="@drawable/circle"
-                    android:contentDescription="@string/google" />
+                    android:contentDescription="@string/google"
+                    android:src="@drawable/google" />
 
                 <View
                     android:layout_width="50dp"
                     android:layout_height="wrap_content" />
 
                 <ImageButton
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:id="@+id/imgbtn_sign_with_facebook"
+                    android:layout_width="@dimen/login_image_size"
+                    android:layout_height="@dimen/login_image_size"
                     android:background="@drawable/circle"
-                    android:contentDescription="@string/facebook" />
+                    android:contentDescription="@string/facebook"
+                    android:src="@drawable/facebook" />
 
             </LinearLayout>
 
